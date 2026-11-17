@@ -1,0 +1,27 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Features cache et résultats
+results_gat*/
+results_gat2*/
+*_features.npz
+
+# Modèles
+*.keras
+*.joblib
+*.h5
+
+# Données
+.nemar/
+dataset*/
+*.edf
+*.tsv
+
+# OS
+.DS_Store
+Thumbs.db
